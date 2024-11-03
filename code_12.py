@@ -11,7 +11,7 @@ def get_fibonacci_number_sequence(number):
     if number == 0:
         return [0]
     if number == 1:
-        return [0,1]
+        return [1,1]
     
     previous_x = 0
     previous_y = 1
